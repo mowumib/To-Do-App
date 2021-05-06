@@ -1,4 +1,4 @@
-import { v4 as uuidv4 } from "../src/uuid";
+// import { v4 as uuidv4 } from "../src/uuid";
 
 const addButton = document.getElementById('add');
 const input = document.querySelector('.inputValue');
