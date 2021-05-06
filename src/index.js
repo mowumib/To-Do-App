@@ -1,10 +1,11 @@
+import { v4 as uuidv4 } from "../src/uuid";
+
 const addButton = document.getElementById('add');
 const input = document.querySelector('.inputValue');
 const itemUL = document.querySelector('.item-list');
 
 let itemArray = [];
 
-const deleteBtn = document.querySelector(".delete");
 const insertIntoToDo = (value) =>{
     if(value === ''){
         console.log("Hey!! Add and Item.");

@@ -160,6 +160,11 @@ footer a:hover {
     color: rgb(187, 0, 255);
 }
 
-/* @media only screen(max-device-width: 500px){
-
-} */
+@media only screen and (max-width: 500px) {
+    .icons:first-child {
+      margin-right: 10px;
+    }
+    .icons:last-child {
+      margin-right: 5px;
+    }
+  }
